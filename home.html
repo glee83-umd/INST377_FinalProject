@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>IP Finder - Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <link rel="stylesheet" href="css.css">
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <header id="headfoot">
+        <h1>Welcome to IP Finder!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="help.html">Help</a></li>
+        </ul>
+    </nav>
+
+    <div class="main_content">
+        <h2>Enter an IP Address:</h2>
+        <input type="text" id="ipInput" placeholder="e.g. 8.8.8.8">
+        <button onclick="goToResultPage()">Search</button>
+
+        <div class="glider-container">
+            <div class="glider" id="flagGlider"></div>
+        </div>
+    </div>
+</body>
+</html>

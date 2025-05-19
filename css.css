@@ -1,0 +1,140 @@
+body {
+    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+div h3 {
+    text-align: left;
+}
+
+nav {
+    background-color: darkblue;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color:cyan;
+    color: black;
+}
+
+.main_content {
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.main_content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.main_content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.main_content ol {
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+input[type="text"] {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    width: 300px;
+    font-size: 16px;
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: maroon;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+    color: white;
+}
+
+#chartdiv {
+  width: 100%;
+  height: 500px;
+  max-width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#map {
+    height: 300px;
+    width: 700px;
+}
+
+.resultsTable {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.resultsTable th, .resultsTable td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.glider-container {
+  max-width: 384px; /* 3 x 128px */
+  margin: 100px auto;
+  overflow: hidden;
+}
+
+.glider {
+  display: flex;
+}
+
+.glider img {
+  width: 128px;
+  height: 85px;
+  object-fit: contain;
+  padding: 0 5px;
+  flex-shrink: 0;
+}
